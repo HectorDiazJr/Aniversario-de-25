@@ -1,0 +1,264 @@
+.navbar{
+  font-family: "Roboto Mono", monospace;
+  background-color: black;
+}
+
+.navImage {
+  width:30px;
+  height:24px;
+}
+
+.navbar-brand {
+  text-align: left;
+}
+
+body {
+  background-color: black;
+}
+
+.video {
+  width:100%; 
+  height:auto;
+}
+
+/* .imageStory {
+  height:200%;
+  width:auto;
+} */
+
+.title-image {
+  position: static;
+  width: 100%;
+  /* position: absolute; */
+  right: 100%;
+  top: 8%;
+  margin-top: 15px;
+  margin-left: 15;
+  margin-right: 15;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.willYouAttend {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: white;
+}
+
+.attending {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin-bottom: 35px;
+  color: white;
+}
+
+.willYouAttendAnswer {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25;
+  color: white;
+}
+
+.option {
+  font-family: "Roboto Mono", monospace;
+  color: red;
+}
+
+.yes {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin-top: 35px;
+  /* color: darkgreen; */
+  font-weight: bold;
+}
+
+.no {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin-top: 25px;
+  color: darkred;
+  font-weight: bold;
+}
+
+.select {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin-top: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+
+.attending {
+  margin-bottom: 25px;
+  color: white;
+}
+
+.attendingButtons {
+  border: 2px white;
+  background-color: black;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+}
+
+.respond {
+  font-family: "Roboto Mono", monospace;
+  border: 2px solid blacl;
+  background-color: white;
+  color: black;
+  width: 255px;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  margin: 6px 2px;
+  /* margin-bottom: 25px;
+    margin: auto; */
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 darkgrey, 0 6px 20px 0 grey;
+  color: black;
+}
+
+.respond:hover {
+  opacity: 0.6;
+}
+
+#parrNo {
+  font-size: 15px;
+  font-family: "Roboto Mono", monospace;
+  color: white
+}
+
+.hiddenDiv {
+  display: none;
+  margin-top: 20px;
+}
+
+#howMany {
+  font-size: 15px;
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  margin-right: 10px;
+  color: black;
+}
+
+.numberButton {
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  border: 2px solid blacl;
+  background-color: white;
+  color: black;
+  width: 115px;
+  height: 45px;
+  /* padding: 15px 32px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-left: 10px; */
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  /* margin: 6px 2px; */
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+}
+
+.numberButton:hover {
+  opacity: 0.6;
+}
+
+.emailForm {
+  font-size: 5;
+  font-family: "Roboto Mono", monospace;
+  margin: auto;
+  margin-top: 35px;
+  width: 100%;
+  /* padding: 10px; */
+  text-align: center;
+  color: whtie;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 15px;
+  text-align: center;
+  width: 400px;
+  height: 30px;
+  margin: auto;
+  width: auto;
+  color: black;
+}
+
+.bold {
+  font-style: bold;
+  font-size: 15px;
+  text-align: center;
+  width: 250px;
+  height: 30px;
+  margin: auto;
+  width: auto;
+  color: white;
+}
+
+.reset {
+  margin-bottom: 50px;
+}
+
+.respondEmail {
+  font-family: "Roboto Mono", monospace;
+  border: 2px solid blacl;
+  background-color: white;
+  color: black;
+  width: 100px;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  margin: 6px 2px;
+  margin-bottom: 15px;
+  /* margin-bottom: 25px;
+        margin: auto; */
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 darkgrey, 0 6px 20px 0 grey;
+  color: black;
+}
+
+.respondEmail:hover {
+  opacity: 0.6;
+}
+
+.kids {
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+
+.song-request {
+  font-family: 'Vujahday Script', cursive;
+  text-align: center;
+  font-size: 2.0rem;
+  line-height: 1.0;
+  font-weight: 25;
+  color: white;
+  margin-bottom: 40px;
+  display:inline-block
+}
+
