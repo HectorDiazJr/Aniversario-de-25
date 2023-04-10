@@ -92,7 +92,7 @@ body {
 
 .center {
   margin: auto;
-  width: 60%;
+  width: 80%;
   padding: 10px;
   text-align: center;
 }
@@ -116,7 +116,7 @@ body {
   border: 2px solid blacl;
   background-color: white;
   color: black;
-  width: 200px;
+  width: 100%;
   /* padding: 15px 32px; */
   text-align: center;
   text-decoration: none;
@@ -128,7 +128,6 @@ body {
   cursor: pointer;
   box-shadow: 0 4px 8px 0 darkgrey, 0 6px 20px 0 grey;
   color: black;
-  font-weight: bold;
 }
 
 .respond:hover {
@@ -155,7 +154,6 @@ body {
   height: 40px;
   margin-right: 10px;
   color: black;
-  font-weight: bold;
 }
 
 .numberButton {
@@ -164,7 +162,6 @@ body {
   border: 2px solid blacl;
   background-color: white;
   color: black;
-  font-weight: bold;
   width: 115px;
   height: 45px;
   /* padding: 15px 32px; */
@@ -205,7 +202,6 @@ body {
   margin: auto;
   width: auto;
   color: black;
-  font-weight: bold;
 }
 
 .bold {
@@ -223,12 +219,19 @@ body {
   margin-bottom: 50px;
 }
 
+.songRequest {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
 .respondEmail {
   font-family: "Roboto Mono", monospace;
   border: 2px solid blacl;
   background-color: white;
   color: black;
-  font-weight: bold;
   width: 100px;
   /* padding: 15px 32px; */
   text-align: center;
@@ -267,3 +270,35 @@ body {
   display:inline-block
 }
 
+.white-section {
+  background-color: #fff;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-icon:hover {
+  color: #ff4c68;
+}
+
+.songRequest {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+.footer {
+  text-align: center;
+}
+
+.fa-2x {
+  color: black;
+}
+
+.end {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
