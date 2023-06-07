@@ -19,6 +19,12 @@ var songReq = $(
   '<a href="https://docs.google.com/spreadsheets/d/1rh5Tm7yrFpbQQxEhgDJAWWDREVdHP0E4kXENQDr5hnA/edit#gid=0"><br><br><text>Dont forget to Click here to add a song to our playlist!</text></a>'
 );
 
+// RSVP has expired
+
+$("#yes").on("click", function (event) {
+  alert("Lamentamos, se ha cerrado la confirmacion de asistencia para la cena. Siguen siendo bienvenidos para el baile. Por favor seleccione esa opcion si gustan asistir solo al baile.")
+})
+
 // $("#yes").on("click", function (event) {
 //   $(".guestAttending").show();
 //   $("#header").addClass("yes");
